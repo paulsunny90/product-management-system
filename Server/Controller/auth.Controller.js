@@ -1,7 +1,7 @@
 import bcrypt from "bcryptjs";
 import { db } from "../Config/db.js";
 
-//   login controller
+//   Login controller
 
 export const login = (req, res) => {
     const { username, password } = req.body;
@@ -32,7 +32,7 @@ export const login = (req, res) => {
     });
 };
 
-// logout controller
+// Logout controller
 export const logout = (req, res) => {
     req.session.destroy((err) => {
         if (err) {
@@ -42,7 +42,7 @@ export const logout = (req, res) => {
     });
 };
 
-// checkAuth controller
+// CheckAuth controller
 
 export const checkAuth = (req, res) => {
     if (req.session.userId) {

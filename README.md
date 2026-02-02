@@ -1,6 +1,6 @@
 # Simple Product Management System
 
-This is a simple Product Management System developed as part of the Node.js Developer Coding Assignment for LIRIED TECH PRIVATE LIMITED.
+A simple Product Management System built using Node.js, Express, and MySQL. This application allows users to securely log in and manage products with full CRUD operations
 
 ## Features
 - Login Page (HTML/CSS)
